@@ -251,12 +251,7 @@ const REPORT_COUNTER_KEY = 'rbf_report_counter';
 
 export const generateReportId = async (): Promise<string> => {
   const year = new Date().getFullYear();
-  const raw = await AsyncStorage.getItem(REPORT_COUNTER_KEY);
-  let counter = raw ? parseInt(raw, 10) : 0;
-  counter += 1;
-  await AsyncStorage.setItem(REPORT_COUNTER_KEY, String(counter));
-  const padded = String(counter).padStart(4, '0');
-  return `RBF-ENG-${year}-${padded}`;
+  return `RBF-ENG-${year}`;
 };
 
 export const getLastReportId = async (): Promise<string | null> => {
