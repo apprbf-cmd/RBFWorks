@@ -22,6 +22,9 @@ export interface NotebookEntry {
   projectWorkers: string;
   activeWorkshops: string;
   activeMachines: string;
+  purchasedMaterials?: string;
+  problemsDelays?: string;
+  problemPhotos?: string[];
   dailyTasks: string;
   projectName?: string;
   reportName?: string;

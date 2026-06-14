@@ -47,6 +47,19 @@ export const translations = {
     clear: 'Clear',
     weatherOptions: ['Sunny ☀️', 'Partly Cloudy ⛅', 'Cloudy ☁️', 'Rainy 🌧️', 'Windy 💨', 'Hot 🌡️'],
 
+    // New notebook sections
+    purchasedMaterials: 'Purchased & Received Materials',
+    purchasedMaterialsHint: 'List purchased materials, quantities, suppliers, and received items...',
+    problemsDelays: 'Problems, Delays & Challenges',
+    problemsDelaysHint: 'Describe site issues, delays, technical problems, safety concerns, or execution challenges...',
+    problemPhotos: 'Problem Documentation Photos',
+    addProblemPhoto: 'Add Problem Photo',
+    captureIssue: 'Capture Issue',
+    captureIssueSub: 'Document problems or site conditions',
+    noProblemPhotos: 'No documentation photos yet',
+    problemPhotoCount: 'problem photo(s)',
+
+
     // Visit Report
     visitReportTitle: 'Workshop Visit Report',
     takePhoto: 'Take Photo',
@@ -172,6 +185,19 @@ export const translations = {
     pdfExported: 'تم تصدير PDF',
     clear: 'مسح',
     weatherOptions: ['مشمس ☀️', 'غائم جزئياً ⛅', 'غائم ☁️', 'ممطر 🌧️', 'رياح 💨', 'حار 🌡️'],
+
+    // New notebook sections
+    purchasedMaterials: 'المواد التي تم شراؤها واستلامها',
+    purchasedMaterialsHint: 'قائمة المواد المشتراة والكميات والموردين والمواد المستلمة...',
+    problemsDelays: 'المشكلات والتأخيرات والتحديات',
+    problemsDelaysHint: 'وصف مشكلات الموقع والتأخيرات والمشكلات التقنية وقضايا السلامة أو تحديات التنفيذ...',
+    problemPhotos: 'صور توثيق المشكلات',
+    addProblemPhoto: 'إضافة صورة مشكلة',
+    captureIssue: 'توثيق المشكلة',
+    captureIssueSub: 'توثيق المشكلات أو أحوال الموقع',
+    noProblemPhotos: 'لا توجد صور توثيق بعد',
+    problemPhotoCount: 'صورة مشكلة',
+
 
     // Visit Report
     visitReportTitle: 'تقرير زيارة الورشة',
